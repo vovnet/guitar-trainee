@@ -1,0 +1,28 @@
+.note {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: burlywood;
+  margin: 10px 0;
+  transition-duration: 0.4s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+}
+
+.note:hover {
+  /* cursor: pointer;
+  background-color: red;
+  height: 10px; */
+}
+
+.note--active {
+  background-color: rgb(47, 183, 218);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.2s;
+  opacity: 1;
+}
+
+.note--active:hover {
+  /* background-color: red;
+  height: 10px; */
+}

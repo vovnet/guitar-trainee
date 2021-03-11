@@ -1,0 +1,18 @@
+.selector__container {
+  display: flex;
+}
+
+.selector__button {
+  padding: 8px 16px;
+  margin: 0 2px;
+  cursor: pointer;
+  background-color: rgb(228, 72, 137);
+  color: white;
+  font-weight: 600;
+  border: none;
+  user-select: none;
+}
+
+.selector__button--selected {
+  background-color: rgb(47, 183, 218);
+}
